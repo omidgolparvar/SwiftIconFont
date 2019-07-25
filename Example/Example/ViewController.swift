@@ -22,8 +22,8 @@ class ViewController: UIViewController, UITabBarDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         testLabel1.parseIcon()
-        testLabel2.font = UIFont.icon(from: .fontAwesome, ofSize: 17.0)
-        testLabel2.text = String.fontAwesomeIcon("twitter")
+        testLabel2.font = UIFont.icon(from: .segoeMDL2, ofSize: 17.0)
+        testLabel2.text = String.fontSegoeMDL2Icon("TiltDown")
         tabbarItem.badgeValue = "1"
         //textField.runtimeParse = true
         // Do any additional setup after loading the view, typically from a nib.

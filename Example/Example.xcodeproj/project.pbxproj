@@ -176,7 +176,9 @@
 				TargetAttributes = {
 					DA6A8B3B1D2FEC9600E9C03B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = A5T376J6M4;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 					DA6A8B4F1D2FEC9600E9C03B = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -429,10 +431,14 @@
 			baseConfigurationReference = CA5D4FF92F93552E426AA167 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5T376J6M4;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tr.sdev.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = io.idco.ios.test.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -442,10 +448,14 @@
 			baseConfigurationReference = 74348D6BDFD51CA0DD8500B7 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5T376J6M4;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tr.sdev.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = io.idco.ios.test.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
